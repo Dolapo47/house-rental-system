@@ -6,7 +6,7 @@ body{
 }
 .header{
     display: flex;
-    background-color: green;
+    background-color: #06805b;
     width: auto;
     height: 130px;
 }
@@ -51,7 +51,7 @@ body{
 }
 
 .footer {
-    background-color: green;
+    background-color: #06805b;
     width: auto;
     height: 130px;
 }
