@@ -8,7 +8,7 @@ body{
 .header {
     width: 100%;
     height: 70px;
-    background-color: #06805b;
+    background-color: green;
     padding: 10px;
     top: 0;
 }
@@ -46,13 +46,27 @@ body{
 .form-container {
     margin: auto;
     width: 55%;
-    height: 65%;
+    height: 85%;
     background-color: white;
     padding: 20px;
 }
 
+.form-container h1{
+    color: #06805b;
+    font-weight: lighter;
+    color: #06805b;
+}
+
+.form-container a{
+    text-decoration: none;
+    color: #06805b;
+}
+
+label {
+    color: #06805b;
+}
 .form-container input {
-    width: 100%;
+    width: 95%;
     padding: 5px;
     height: 40px;
     margin: 10px;
@@ -77,7 +91,7 @@ button {
 .footer {
     width: 100%;
     height: 70px;
-    background-color: #06805b;
+    background-color: green;
     padding: 10px;
     bottom: 0;
 }
