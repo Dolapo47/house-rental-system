@@ -46,12 +46,18 @@ body{
 .form-container {
     margin: auto;
     width: 55%;
-    height: 85%;
+    height: 90%;
     background-color: white;
     padding: 20px;
 }
 
 .form-container h1{
+    color: #06805b;
+    font-weight: lighter;
+    color: #06805b;
+}
+
+.form-container h3{
     color: #06805b;
     font-weight: lighter;
     color: #06805b;
