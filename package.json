@@ -1,0 +1,12 @@
+{
+  "name": "house-rental-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "keywords": ["rental", "housing", "Nigeria"],
+  "author": "Adeleye Adedolapo",
+  "license": "ISC"
+}

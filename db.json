@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "dolapo",
+      "age": 26,
+      "email": "dolapo@gmail.com",
+      "address": "surulere",
+      "isAdmin": true
+    },
+    {
+      "id": 1,
+      "name": "dotub",
+      "age": 24,
+      "email": "dotun@gmail.com",
+      "address": "surulere",
+      "isAdmin": false
+    },
+    {
+      "id": 1,
+      "name": "ayomide",
+      "email": "ayo@gmail.com",
+      "age": 12,
+      "phoneNumber": "07088657758",
+      "address": "surulere",
+      "isAdmin": false
+    },
+    {
+      "id": 1,
+      "name": "chioma",
+      "age": 23,
+      "email": "chioma@gmail.com",
+      "phoneNumber": "07088657758",
+      "address": "berger",
+      "isAdmin": false
+    }
+  ]
+}
