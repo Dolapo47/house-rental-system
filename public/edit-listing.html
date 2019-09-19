@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/sign-up.css">
-    <script src="js/jquery.js"></script>
     <title>Let Pro || sign-up</title>
 </head>
 <body>
@@ -23,58 +23,57 @@
         <div class="form-holder">
             <div class="form-container">
                     <form>
-                        <h3>Register User</h3>
-                        <label>Email:</label>
+                        <h3>New Listing</h3>
+                        <label>Number of Rooms:</label>
                             <input 
-                            type="email"
-                            id="email" name="email" 
-                            placeholder="Email..." 
+                            type="number"
+                            id="edit-rooms" name="rooms" 
+                            placeholder="No of rooms..." 
                             class="input"
                             required
                             /><br>
 
-                        <label>Full name:</label>
+                        <label>Type:</label>
                             <input 
                             type="text" 
-                            id="name" name="name" 
-                            placeholder="name..." 
+                            id="edit-type" name="type" 
+                            placeholder="Duplex, Flat, mini flat...... " 
                             class="input"
                             required
                             /><br>
 
-                            <label>Age:</label>
+                            <label>No of Bathrooms</label>
                             <input
                             type="number"
-                            id="age" name="age" 
-                            placeholder="age..." 
+                            id="edit-bathrooms" name="bathrooms" 
+                            placeholder="No of bathrooms...." 
                             class="input"
                             required
                             /><br>
                         <label>Address:</label>
                             <input 
                             type="text" 
-                            id="address" name="address" 
+                            id="edit-address" name="address" 
                             placeholder="Address..." 
                             class="input"
                             required
                             /><br>
-
-                            <label>Password:</label>
+                        
+                        <label>Price:</label>
                             <input 
-                            type="password" 
-                            id="password" name="password" 
-                            placeholder="Password..." 
+                            type="number"
+                            id="edit-price" name="price" 
+                            placeholder="No of rooms..." 
                             class="input"
                             required
                             /><br>
     
-                            <button type="submit" class="btn" id="submit">Create Account</button>
-                            <a href="signin.html">If registered log in here...</a>
+                            <button type="submit" class="btn" id="edit-submit">Edit listing</button>
                     </form>
             </div>
         </div>
     </div>
     <div class="footer"></div>
 </body>
-<script src="js/source.js"></script>
-</html>
+<script src="js/edit.js"></script>
+</html>         

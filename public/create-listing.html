@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/sign-up.css">
     <title>Let Pro || sign-up</title>
@@ -21,12 +22,12 @@
         </div>
         <div class="form-holder">
             <div class="form-container">
-                    <form action="dashboard.html" >
+                    <form>
                         <h3>New Listing</h3>
                         <label>Number of Rooms:</label>
                             <input 
                             type="number"
-                            id="email" name="rooms" 
+                            id="rooms" name="rooms" 
                             placeholder="No of rooms..." 
                             class="input"
                             required
@@ -35,7 +36,7 @@
                         <label>Type:</label>
                             <input 
                             type="text" 
-                            id="name" name="name" 
+                            id="type" name="type" 
                             placeholder="Duplex, Flat, mini flat...... " 
                             class="input"
                             required
@@ -44,7 +45,7 @@
                             <label>No of Bathrooms</label>
                             <input
                             type="number"
-                            id="age" name="age" 
+                            id="bathrooms" name="bathrooms" 
                             placeholder="No of bathrooms...." 
                             class="input"
                             required
@@ -57,6 +58,15 @@
                             class="input"
                             required
                             /><br>
+                        
+                        <label>Price:</label>
+                            <input 
+                            type="number"
+                            id="price" name="price" 
+                            placeholder="No of rooms..." 
+                            class="input"
+                            required
+                            /><br>
     
                             <button type="submit" class="btn" id="submit">Create Account</button>
                     </form>
@@ -65,4 +75,5 @@
     </div>
     <div class="footer"></div>
 </body>
+<script src="js/create-listing.js"></script>
 </html>         

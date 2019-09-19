@@ -6,33 +6,40 @@
       "age": 26,
       "email": "dolapo@gmail.com",
       "address": "surulere",
-      "isAdmin": true
+      "password": "dolapo"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "dotun",
       "age": 24,
       "email": "dotun@gmail.com",
       "address": "surulere",
-      "isAdmin": false
+      "password": "dolapo"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "ayomide",
       "email": "ayo@gmail.com",
       "age": 12,
-      "phoneNumber": "07088657758",
       "address": "surulere",
-      "isAdmin": false
-    },
+      "password": "dolapo"
+    }
+  ],
+  "houses": [
+    {
+      "no_of_rooms": "3",
+      "type": "flat",
+      "no_of_bathrooms": "4",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "price": "50000000",
+      "id": 3
+    }
+  ],
+  "transactions": [
     {
       "id": 1,
-      "name": "chioma",
-      "age": 23,
-      "email": "chioma@gmail.com",
-      "phoneNumber": "07088657758",
-      "address": "berger",
-      "isAdmin": false
+      "userId": 2,
+      "houseId": 3
     }
   ]
 }
