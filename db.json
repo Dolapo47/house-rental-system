@@ -23,6 +23,24 @@
       "age": 12,
       "address": "surulere",
       "password": "dolapo"
+    },
+    {
+      "email": "dappy@gmail.com",
+      "name": "dappy",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "age": "23",
+      "password": "dappy",
+      "isAdmin": "false",
+      "id": 4
+    },
+    {
+      "email": "tolani@gmail.com",
+      "name": "tolani",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "age": "26",
+      "password": "tolani",
+      "isAdmin": "false",
+      "id": 5
     }
   ],
   "houses": [
@@ -32,7 +50,8 @@
       "no_of_bathrooms": "4",
       "address": "9 Gabriel olusanya, Off iyana ejigbo",
       "price": "50000000",
-      "id": 3
+      "id": 3,
+      "userId": "2"
     }
   ],
   "transactions": [

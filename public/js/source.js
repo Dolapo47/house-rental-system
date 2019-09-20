@@ -1,4 +1,3 @@
-// alert('yippee');
 $('#submit').click((e)=>{
     e.preventDefault();
     let email = $('#email').val();
@@ -15,15 +14,17 @@ $('#submit').click((e)=>{
     }).done((e) =>{
         if(e.email !== email){
             localStorage.setItem('email', email);
-            window.location.replace("../dashboard.html");
+            localStorage.setItem('id', id)
+            window.location.replace("http://localhost:3000/dashboard.html");
             $('#email').val('');
             $('#name').val('');
             $('#address').val('');
             $('#age').val('');
             $('#password').val('');
         }else{
-            alert('Authentication Failed');
+            alert('Email already exists');
             window.location.reload();
+            break;
         }
     });
 }); 

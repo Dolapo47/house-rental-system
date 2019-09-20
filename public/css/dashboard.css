@@ -39,12 +39,43 @@ body {
     height: 90%;
     margin: auto;
     margin-top: 15px;
-    border: 1px solid black;
     padding: 20px;
     background-color: #ffffff;
     overflow: scroll;
 }
- h5{
+
+.con {
+    display: block;
+}
+
+.item-footer {
+    width: 1000px;
+    height: 200px;
+    clear: both;
+    margin-left: 21.5px;
+    padding: 20px 20px 20px 20px;
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    float: right;
+    padding: 20px;
+    text-align: justify;
+}
+
+.item-details {
+    float: right;
+    width: 500px;
+    height: 300px;
+}
+
+.item-footer button {
+    width: 25%;
+    border-radius: 5px;
+}
+
+ h5 {
      color: black;
  }
 

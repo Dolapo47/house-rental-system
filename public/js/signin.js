@@ -1,4 +1,4 @@
-$('#login').click((e)=>{
+$('#login-user').click((e)=>{
     e.preventDefault();
     let email = $('#email').val();
     let password = $('#password').val();
@@ -10,12 +10,13 @@ $('#login').click((e)=>{
             if(e[i].email === email && e[i].password === password){
                 localStorage.setItem('email', email);
                 localStorage.setItem('id', id)
-                window.location.replace("../dashboard.html");
+                window.location.replace("http://localhost:3000/dashboard.html");
                 $('#email').val('');
                 $('#password').val('');
             }else {
                 alert('Authentication Failed');
                 window.location.reload();
+                break;
             }
         }
     })

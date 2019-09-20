@@ -1,5 +1,6 @@
 $('#submit').click((e) => {
     e.preventDefault();
+    let userId = localStorage.getItem("id")
     let rooms = $('#rooms').val();
     let type = $('#type').val();
     let bathrooms = $('#bathrooms').val();
@@ -9,7 +10,7 @@ $('#submit').click((e) => {
         url: 'http://localhost:3000/houses',
         method: 'post',
         data: {
-            no_of_rooms: rooms, type, no_of_bathrooms: bathrooms, address, price
+            no_of_rooms: rooms, type, no_of_bathrooms: bathrooms, address, price, userId,
         }
     }).done((e) => {
         $('.card-container').append(
