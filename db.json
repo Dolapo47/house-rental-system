@@ -45,20 +45,41 @@
   ],
   "houses": [
     {
-      "no_of_rooms": "3",
-      "type": "flat",
-      "no_of_bathrooms": "4",
+      "no_of_rooms": "6",
+      "type": "duplex",
+      "no_of_bathrooms": "3",
       "address": "9 Gabriel olusanya, Off iyana ejigbo",
-      "price": "50000000",
-      "id": 3,
-      "userId": "2"
+      "price": "4000000",
+      "userId": "3",
+      "id": 1
+    },
+    {
+      "no_of_rooms": "3",
+      "type": "duplex",
+      "no_of_bathrooms": "3",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "price": "4000000",
+      "userId": "3",
+      "id": 1
+    },
+    {
+      "no_of_rooms": "6",
+      "type": "flat",
+      "no_of_bathrooms": "2",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "price": "4000000",
+      "userId": "3",
+      "id": 1
+    },
+    {
+      "no_of_rooms": "6",
+      "type": "duplex",
+      "no_of_bathrooms": "3",
+      "address": "9 Gabriel olusanya, Off iyana ejigbo",
+      "price": "4000000",
+      "userId": "1",
+      "id": 1
     }
   ],
-  "transactions": [
-    {
-      "id": 1,
-      "userId": 2,
-      "houseId": 3
-    }
-  ]
+  "transactions": []
 }
